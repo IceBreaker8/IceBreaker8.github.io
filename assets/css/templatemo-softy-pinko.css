@@ -369,7 +369,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: rgb(18, 221, 211);
+  background-color:linear-gradient(127deg, #5979d1 0%, #250b79 91%);
   
 }
 
@@ -438,7 +438,7 @@ header
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
 }
-
+      
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
@@ -455,8 +455,8 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: rgb(18, 221, 211);
-}
+  color: linear-gradient(127deg, #5979d1 0%, #250b79 91%);
+} 
 
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
@@ -567,7 +567,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: rgb(18, 221, 211);
+  color: rgb(31, 196, 187);
 }
 
 @media (max-width: 1200px) {
@@ -761,7 +761,7 @@ features
   cursor: pointer;
   display: block;
   background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.10);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -798,7 +798,8 @@ features
 }
 
 .features-small-item .icon i {
-  font-size: 18px;
+  margin-top: 20px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -941,7 +942,6 @@ parallax & home seperator
 }
 
 
-
 .mini .mini-content .mini-box:before {
   content: '';
   position: absolute;
@@ -958,9 +958,9 @@ parallax & home seperator
 }
 
 .mini .mini-content .mini-box i {
-  display: block;
+  margin-right: 4px;
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .mini .mini-content .mini-box span {
@@ -972,13 +972,13 @@ parallax & home seperator
 }
 
 .mini .mini-content .mini-box strong {
-  display: block;
+  
   font-weight: 400;
   font-size: 17px;
   color: #1e1e1e;
   letter-spacing: 0.25px;
-  margin-bottom: 5px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .counter {
@@ -1135,14 +1135,25 @@ team
   margin-left: 30px;
 }
 
-.team-item i {
+
+#only-them {
   display: block;
-  margin-left: 25px;
   margin-top: 25px;
-  font-size: 30px;
-  color: #4E47DE;
+  font-size: 60px;
+  color: #2c2699;
   text-align: center;
 }
+
+#only-u {
+  display: block;
+  margin-left: -20px;
+  margin-top: 16px;
+  font-size: 25px;
+  color: #2c2699;
+  text-align: center;
+}
+
+
 
 .team-item .user-image {
   width: 60px;
@@ -1180,7 +1191,7 @@ team
   font-size: 17px;
   color: #1e1e1e;
   letter-spacing: 0.25px;
-  
+  margin-left: -20px;
 }
 
 
@@ -1220,20 +1231,21 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color:rgb(18, 221, 211);
+  background-color:linear-gradient(127deg, #5979d1 0%, #250b79 91%);
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
-  color: #fff;
+  color: linear-gradient(127deg, #5979d1 0%, #250b79 91%);
 }
 
 .pricing-item.active .pricing-body .price-wrapper .price {
-  color: #fff;
+  color: linear-gradient(127deg, #5979d1 0%, #250b79 91%);
 }
 
 .pricing-item.active .pricing-body .price-wrapper .period {
-  color: #fff;
+  color: linear-gradient(127deg, #5979d1 0%, #250b79 91%);
   font-size: 30px;
+  font-weight: 500;
 }
 
 .pricing-item .pricing-header {
@@ -1519,7 +1531,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
+  background-image: linear-gradient(127deg, #5979d1 0%, #250b79 91%);
   left: 0;
   right: 0;
   top: 0;
