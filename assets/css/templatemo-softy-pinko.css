@@ -393,7 +393,7 @@ header
 }
 
 .header-area .main-nav {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.10);
   border-radius: 40px;
   min-height: 80px;
   background: #fff;
@@ -931,7 +931,7 @@ parallax & home seperator
   width: 700%;
   height: 100%;
   border-radius: 20px;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.10);
   
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
@@ -1124,7 +1124,7 @@ team
 */
 .team-item {
   background: #fff;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.10);
   border-radius: 20px;
   position: relative;
   margin-bottom: 30px;
@@ -1215,7 +1215,7 @@ pricing
 */
 .pricing-item {
   background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.10);
   border-radius: 20px;
   margin-bottom: 2px;
   margin-top: 2px;
