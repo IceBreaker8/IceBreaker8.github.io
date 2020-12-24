@@ -933,7 +933,7 @@ parallax & home seperator
   width: 700%;
   height: 100%;
   border-radius: 20px;
-  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.10);
+  box-shadow: 8px 8px 8px 8px rgba(31, 26, 26, 0.1);
   
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
